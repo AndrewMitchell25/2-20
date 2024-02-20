@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const date = new Date();
         const dateP = document.createElement('p');
-        dateP.textContent = `Posted on ${date.getMonth()}-${date.getDate()}-${date.getFullYear()} by ${name}`
+        dateP.textContent = `Posted on ${date.getMonth() + 1}-${date.getDate()}-${date.getFullYear()} by ${name}`
 
         // Create a p element
         const newP = document.createElement('p');
