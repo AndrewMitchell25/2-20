@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Append the h2 and p elements to the div
         newDiv.appendChild(newH2);
-        newDiv.appendChild(newP);
         newDiv.appendChild(dateP);
+        newDiv.appendChild(newP);
 
         let blog = document.getElementById("blog");
 
